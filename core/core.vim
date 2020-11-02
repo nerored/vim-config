@@ -6,7 +6,7 @@ endif
 
 " Set main configuration directory as parent directory
 let $VIM_PATH = fnamemodify(resolve(expand('<sfile>:p')), ':h:h')
-let $EXPTVIM = expand('local')
+let $EXPTVIM = expand($VIM_PATH.'/local')
 
 " set the user config file
 let s:user_init_config = expand($EXPTVIM.'/init.vim')

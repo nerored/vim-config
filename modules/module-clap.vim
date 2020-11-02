@@ -1,5 +1,5 @@
-let s:user_init_vim = expand('local/init.vim')
-let s:user_plugins = expand('local/plugins.yaml')
+let s:user_init_vim = expand($VIM_PATH.'/local/init.vim')
+let s:user_plugins = expand($VIM_PATH.'/local/plugins.yaml')
 let s:user_zshrc = expand($HOME . '/.zshrc')
 let s:user_tmux_conf = expand($HOME . '/.tmux.conf')
 
