@@ -31,3 +31,5 @@
 #"""
 - repo: NLKNguyen/papercolor-theme
 - repo: itchyny/lightline.vim
+- repo: ap/vim-buftabline
+- repo: schickling/vim-bufonly
