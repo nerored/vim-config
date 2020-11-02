@@ -1,11 +1,12 @@
-# --------------  file search
+#""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#"                              search setting
+#"""
 - repo: dyng/ctrlsf.vim
   on_path: .*
-# --------------  Licens
 
-- repo: NLKNguyen/papercolor-theme
-- repo: itchyny/lightline.vim
-
+#""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#"                              licens setting
+#"""
 - repo: nerored/vim-header
   on_ft: go
   hook_add: |
@@ -16,10 +17,17 @@
     let g:header_field_author_email = 'nero_stellar@icloud.com'
     nnoremap <Leader>h :AddMITLicens<CR>
 
-# --------------  golang
-
+#""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#"                              language setting
+#"""
 - repo: fatih/vim-go
   on_ft: go
 
 - repo: junegunn/vim-easy-align
   on_ft: [vim,json,go,html,js,jsx,py,css,less,tmpl,toml,xml,sql,Dockerfile]
+
+#""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#"                              theme setting
+#"""
+- repo: NLKNguyen/papercolor-theme
+- repo: itchyny/lightline.vim
