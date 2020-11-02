@@ -37,7 +37,7 @@ let g:ctrlsf_ackprg = 'ag'
 let g:ctrlsf_position = 'bottom'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""                              ctrlsf setting
+""                              defx setting
 """"
 map <Leader>t :Defx <CR>
 

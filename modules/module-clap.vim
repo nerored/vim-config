@@ -4,11 +4,12 @@ let s:user_zshrc = expand($HOME . '/.zshrc')
 let s:user_tmux_conf = expand($HOME . '/.tmux.conf')
 
 let g:clap_cache_directory = $DATA_PATH . '/clap'
-let g:clap_theme = 'material_design_dark'
-let g:clap_current_selection_sign= { 'text': '➤', 'texthl': "ClapCurrentSelectionSign", "linehl": "ClapCurrentSelection"}
+"let g:clap_theme = 'material_design_dark'
+let g:clap_selected_sign= { 'text': '✓', 'texthl': "ClapSelectedSign", "linehl": "ClapSelected"}
+let g:clap_current_selection_sign= { 'text': '➜', 'texthl': "ClapCurrentSelectionSign", "linehl": "ClapCurrentSelection"}
 let g:clap_layout = { 'relative': 'editor' }
 let g:clap_enable_icon = 1
-let g:clap_search_box_border_style = 'curve'
+let g:clap_search_box_border_style = 'nil'
 let g:clap_provider_grep_enable_icon = 1
 let g:clap_prompt_format = '%spinner%%forerunner_status% %provider_id%: '
 
@@ -28,4 +29,51 @@ endfunction
 
 autocmd User ClapOnEnter call s:ClapSymbolHL()
 
-
+let g:clap_theme = {
+    \ 'input':
+    \   {
+    \     'guifg'  :'white',
+    \     'ctermfg':'white',
+    \     'guibg'  :'#0086af',
+    \     'ctermbg':021
+    \   },
+    \ 'spinner':
+    \   {
+    \     'guifg'  :'white',
+    \     'ctermfg':'white',
+    \     'guibg'  :'#0086af',
+    \     'ctermbg':021
+    \   },
+    \ 'display':
+    \   {
+    \     'guibg'  :'#d0d0d0',
+    \     'ctermbg':'252',
+    \   },
+    \ 'selected_sign':
+    \   {
+    \     'guifg'  :'#0060af',
+    \     'ctermfg':039,
+    \   },
+    \ 'current_selection_sign':
+    \   {
+    \     'guifg'  :'#0060af',
+    \     'ctermfg':039,
+    \   },
+    \ 'selected':
+    \   {
+    \     'guifg'  :'#585858',
+    \     'ctermfg':240,
+    \   },
+    \ 'current_selection':
+    \   {
+    \     'guifg'  :'white',
+    \     'ctermfg':'white',
+    \     'guibg'  :'#0086af',
+    \     'ctermbg':021
+    \   },
+    \ 'preview':
+    \   {
+    \     'guibg'  :'#eeeeee',
+    \     'ctermbg':255
+    \   },
+    \ }
