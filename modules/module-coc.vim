@@ -21,9 +21,7 @@ let g:coc_global_extensions =[
     \ 'coc-tabnine',
     \ 'coc-gitignore',
     \ 'coc-yank',
-    \ 'coc-explorer',
     \ 'coc-actions',
-    \ 'coc-db',
     \]
 
 augroup MyAutoCmd
