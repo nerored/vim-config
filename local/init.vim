@@ -16,6 +16,8 @@ inoremap  <C-d> <DELETE>
 
 map <Leader>q :wqa<CR>
 
+autocmd TermOpen * setlocal nonumber norelativenumber
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""                              scheme setting
 """"
