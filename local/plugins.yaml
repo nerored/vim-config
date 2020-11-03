@@ -38,3 +38,10 @@
 #"                              term setting
 #"""
 - repo: vimlab/split-term.vim
+
+#""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#"                              editor setting
+#"""
+- repo: antoinemadec/FixCursorHold.nvim
+- repo: machakann/vim-highlightedyank
+- repo: itchyny/vim-cursorword
