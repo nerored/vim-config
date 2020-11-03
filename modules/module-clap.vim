@@ -46,17 +46,17 @@ let g:clap_theme = {
     \   },
     \ 'display':
     \   {
-    \     'guibg'  :'#d0d0d0',
-    \     'ctermbg':'252',
+    \     'guibg'  :'#eeeeee',
+    \     'ctermbg':'255',
     \   },
     \ 'selected_sign':
     \   {
-    \     'guifg'  :'#0060af',
+    \     'guifg'  :'#009aa5',
     \     'ctermfg':039,
     \   },
     \ 'current_selection_sign':
     \   {
-    \     'guifg'  :'#0060af',
+    \     'guifg'  :'#009aa5',
     \     'ctermfg':039,
     \   },
     \ 'selected':
@@ -68,12 +68,12 @@ let g:clap_theme = {
     \   {
     \     'guifg'  :'white',
     \     'ctermfg':'white',
-    \     'guibg'  :'#0086af',
+    \     'guibg'  :'#009aa5',
     \     'ctermbg':021
     \   },
     \ 'preview':
     \   {
-    \     'guibg'  :'#eeeeee',
-    \     'ctermbg':255
+    \     'guibg'  :'#d6d6d6',
+    \     'ctermbg':253
     \   },
     \ }
