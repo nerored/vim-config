@@ -22,9 +22,6 @@
 - repo: junegunn/vim-easy-align
   on_ft: [vim,json,go,html,js,jsx,py,css,less,tmpl,toml,xml,sql,Dockerfile]
 
-- repo: tbastos/vim-lua
-  on_ft: lua
-
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 #"                              theme
 #"""
