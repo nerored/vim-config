@@ -52,41 +52,6 @@ nnoremap <C-N> :bnext<CR>
 nnoremap <C-P> :bprev<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""                              licens setting
-""""
-let g:header_auto_add_header = 0
-let g:header_field_timestamp_format = '%Y-%m-%d'
-let g:header_go_comment_char = '//'
-let g:header_field_author = 'nerored'
-let g:header_field_author_email = 'nero_stellar@icloud.com'
-nnoremap <Leader>h :AddMITLicens<CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""                              vim-go setting
-""""
-let g:go_fmt_command = "goimports"
-let g:go_highlight_types = 1
-let g:go_highlight_fields = 1
-let g:go_highlight_functions = 1
-let g:go_highlight_function_calls = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_extra_types = 1
-let g:go_highlight_build_constraints = 1
-let g:go_highlight_generate_tags = 1
-"disable use K to run godoc
-let g:go_doc_keywordprg_enabled = 0
-let g:go_def_mapping_enabled = 0
-
-let g:go_fmt_fail_silently = 1
-let g:go_rename_command = 'gopls'
-
-map <Leader>r :GoReferrers<CR>
-
-au FileType go nmap <Leader>ff <Plug>(go-def)
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""                              lanching setting
 """"
 function GetCurFilePath()

@@ -8,20 +8,15 @@
 #"                              licens setting
 #"""
 - repo: nerored/vim-header
-  on_ft: go
-  hook_add: |
-    let g:header_auto_add_header = 0
-    let g:header_field_timestamp_format = '%Y-%m-%d'
-    let g:header_go_comment_char = '//'
-    let g:header_field_author = 'nerored'
-    let g:header_field_author_email = 'nero_stellar@icloud.com'
-    nnoremap <Leader>h :AddMITLicens<CR>
+  on_ft: [go]
+  hook_source: source  $VIM_PATH/plugin/vim-header.vim
 
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 #"                              language setting
 #"""
 - repo: fatih/vim-go
   on_ft: go
+  hook_source: source $VIM_PATH/plugin/vim-go.vim
 
 - repo: junegunn/vim-easy-align
   on_ft: [vim,json,go,html,js,jsx,py,css,less,tmpl,toml,xml,sql,Dockerfile]
