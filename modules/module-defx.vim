@@ -7,7 +7,7 @@ call defx#custom#option('_', {
   \ 'winwidth': 30,
   \ 'split': 'vertical',
   \ 'direction': 'topleft',
-  \ 'show_ignored_files': 0,
+  \ 'show_ignored_files': 1,
   \ 'columns': 'mark:indent:git:icons:filename',
   \ 'root_marker': '[in]: ',
   \ })
@@ -133,4 +133,5 @@ function! s:defx_mappings() abort
 
 endfunction
 
+map <Leader>t :Defx <CR>
 " vim: set ts=2 sw=2 tw=80 noet :

@@ -16,6 +16,5 @@ let g:go_def_mapping_enabled = 0
 let g:go_fmt_fail_silently = 1
 let g:go_rename_command = 'gopls'
 
-map <Leader>r :GoReferrers<CR>
-
+au FileType go map <Leader>r :GoReferrers<CR>
 au FileType go nmap <Leader>ff <Plug>(go-def)

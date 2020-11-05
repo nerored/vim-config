@@ -1,18 +1,19 @@
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-#"                              search setting
+#"                              search
 #"""
 - repo: dyng/ctrlsf.vim
   on_path: .*
+  hook_source: source $VIM_PATH/plugin/ctrlsf.vim
 
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-#"                              licens setting
+#"                              licens
 #"""
 - repo: nerored/vim-header
   on_ft: [go]
   hook_source: source  $VIM_PATH/plugin/vim-header.vim
 
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-#"                              language setting
+#"                              langs
 #"""
 - repo: fatih/vim-go
   on_ft: go
@@ -21,13 +22,20 @@
 - repo: junegunn/vim-easy-align
   on_ft: [vim,json,go,html,js,jsx,py,css,less,tmpl,toml,xml,sql,Dockerfile]
 
+  #- repo: tbastos/vim-lua
+  #  on_ft: [lua]
+
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-#"                              theme setting
+#"                              theme
 #"""
 - repo: NLKNguyen/papercolor-theme
+  hook_add: source $VIM_PATH/theme/papercolor.vim
+
 - repo: itchyny/lightline.vim
 - repo: ap/vim-buftabline
+
 - repo: schickling/vim-bufonly
+  hook_source: source $VIM_PATH/plugin/vim-bufonly.vim
 
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 #"                              term setting

@@ -21,35 +21,7 @@ autocmd TermOpen * setlocal nonumber norelativenumber
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""                              scheme setting
 """"
-set t_Co=256   " This is may or may not needed.
-
-set background=light
 colorscheme PaperColor
-
-let g:lightline = { 'colorscheme': 'PaperColor' }
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""                              ctrlsf setting
-""""
-map <Leader>s :CtrlSF<CR>
-map <Leader>ss :CtrlSFClose<CR>
-map <Leader>rr :CtrlSFOpen<CR>
-
-let g:ctrlsf_ackprg = 'ag'
-let g:ctrlsf_position = 'bottom'
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""                              defx setting
-""""
-map <Leader>t :Defx <CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""                              buffer setting
-""""
-map <Leader>b :Bonly!<CR>
-map <Leader>c :bp \| bd #<CR>
-nnoremap <C-N> :bnext<CR>
-nnoremap <C-P> :bprev<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""                              lanching setting
@@ -64,5 +36,5 @@ endfunction
 
 nnoremap <Leader>cc :call GetCurFilePath() <CR>
 
-autocmd VimEnter * if empty(bufname('')) | Defx | endif
 autocmd VimEnter * Vista!!
+autocmd VimEnter * if empty(bufname('')) | Defx | endif
