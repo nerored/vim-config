@@ -16,11 +16,14 @@
 #"                              langs
 #"""
 - repo: fatih/vim-go
-  on_ft: go
+  on_ft: [go,go.mod,go.sum]
   hook_source: source $VIM_PATH/plugin/vim-go.vim
 
 - repo: junegunn/vim-easy-align
   on_ft: [vim,json,go,html,js,jsx,py,css,less,tmpl,toml,xml,sql,Dockerfile]
+
+- repo: Chiel92/vim-autoformat
+  hook_source: source $VIM_PATH/plugin/vim-autoformat.vim
 
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 #"                              theme
