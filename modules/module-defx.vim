@@ -134,4 +134,5 @@ function! s:defx_mappings() abort
 endfunction
 
 map <Leader>t :Defx <CR>
+autocmd FileType defx setlocal nonumber
 " vim: set ts=2 sw=2 tw=80 noet :
