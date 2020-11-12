@@ -28,8 +28,8 @@
 #""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 #"                              theme
 #"""
-- repo: NLKNguyen/papercolor-theme
-  hook_add: source $VIM_PATH/theme/papercolor.vim
+- repo: lifepillar/vim-solarized8
+  hook_add: source $VIM_PATH/theme/vim-solarized8.vim
 
 - repo: itchyny/lightline.vim
 - repo: ap/vim-buftabline

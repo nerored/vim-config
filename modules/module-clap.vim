@@ -29,51 +29,51 @@ endfunction
 
 autocmd User ClapOnEnter call s:ClapSymbolHL()
 
-let g:clap_theme = {
-    \ 'input':
-    \   {
-    \     'guifg'  :'white',
-    \     'ctermfg':'white',
-    \     'guibg'  :'#0086af',
-    \     'ctermbg':021
-    \   },
-    \ 'spinner':
-    \   {
-    \     'guifg'  :'white',
-    \     'ctermfg':'white',
-    \     'guibg'  :'#0086af',
-    \     'ctermbg':021
-    \   },
-    \ 'display':
-    \   {
-    \     'guibg'  :'#eeeeee',
-    \     'ctermbg':'255',
-    \   },
-    \ 'selected_sign':
-    \   {
-    \     'guifg'  :'#009aa5',
-    \     'ctermfg':039,
-    \   },
-    \ 'current_selection_sign':
-    \   {
-    \     'guifg'  :'#009aa5',
-    \     'ctermfg':039,
-    \   },
-    \ 'selected':
-    \   {
-    \     'guifg'  :'#585858',
-    \     'ctermfg':240,
-    \   },
-    \ 'current_selection':
-    \   {
-    \     'guifg'  :'white',
-    \     'ctermfg':'white',
-    \     'guibg'  :'#009aa5',
-    \     'ctermbg':021
-    \   },
-    \ 'preview':
-    \   {
-    \     'guibg'  :'#d6d6d6',
-    \     'ctermbg':253
-    \   },
-    \ }
+"let g:clap_theme = {
+"    \ 'input':
+"    \   {
+"    \     'guifg'  :'white',
+"    \     'ctermfg':'white',
+"    \     'guibg'  :'#0086af',
+"    \     'ctermbg':021
+"    \   },
+"    \ 'spinner':
+"    \   {
+"    \     'guifg'  :'white',
+"    \     'ctermfg':'white',
+"    \     'guibg'  :'#0086af',
+"    \     'ctermbg':021
+"    \   },
+"    \ 'display':
+"    \   {
+"    \     'guibg'  :'#eeeeee',
+"    \     'ctermbg':'255',
+"    \   },
+"    \ 'selected_sign':
+"    \   {
+"    \     'guifg'  :'#009aa5',
+"    \     'ctermfg':039,
+"    \   },
+"    \ 'current_selection_sign':
+"    \   {
+"    \     'guifg'  :'#009aa5',
+"    \     'ctermfg':039,
+"    \   },
+"    \ 'selected':
+"    \   {
+"    \     'guifg'  :'#585858',
+"    \     'ctermfg':240,
+"    \   },
+"    \ 'current_selection':
+"    \   {
+"    \     'guifg'  :'white',
+"    \     'ctermfg':'white',
+"    \     'guibg'  :'#009aa5',
+"    \     'ctermbg':021
+"    \   },
+"    \ 'preview':
+"    \   {
+"    \     'guibg'  :'#d6d6d6',
+"    \     'ctermbg':253
+"    \   },
+"    \ }

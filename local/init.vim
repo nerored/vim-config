@@ -21,7 +21,7 @@ autocmd TermOpen * setlocal nonumber norelativenumber
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""                              scheme setting
 """"
-colorscheme PaperColor
+colorscheme solarized8
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""                              lanching setting
