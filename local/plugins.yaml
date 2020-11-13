@@ -16,7 +16,7 @@
 #"                              langs
 #"""
 - repo: fatih/vim-go
-  on_ft: [go,go.mod,go.sum]
+  on_ft: [go,mod,sum]
   hook_source: source $VIM_PATH/plugin/vim-go.vim
 
 - repo: junegunn/vim-easy-align
