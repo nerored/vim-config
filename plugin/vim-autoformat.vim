@@ -1,1 +1,1 @@
-au BufWrite *.proto,*.sh :Autoformat
+au BufWrite *.proto :Autoformat
