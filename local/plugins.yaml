@@ -19,6 +19,9 @@
   on_ft: [go,mod,sum]
   hook_source: source $VIM_PATH/plugin/vim-go.vim
 
+- repo: arzg/vim-sh
+  on_ft: [ sh,zsh ]
+
 - repo: junegunn/vim-easy-align
   on_ft: [vim,json,go,html,js,jsx,py,css,less,tmpl,toml,xml,sql,Dockerfile]
 
