@@ -219,8 +219,6 @@
 # TextObjectOperator
 - repo: kana/vim-textobj-user
 
-- { repo: terryma/vim-expand-region, on_map: { x: <Plug> }}
-
 - { repo: AndrewRadev/splitjoin.vim, on_map: { n: <Plug>Splitjoin }}
 
 - repo: AndrewRadev/dsf.vim

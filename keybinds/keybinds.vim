@@ -476,10 +476,10 @@ if dein#tap('vim-niceblock')
   silent! xmap A  <Plug>(niceblock-A)
 endif
 
-if dein#tap('vim-expand-region')
-  xmap v <Plug>(expand_region_expand)
-  xmap V <Plug>(expand_region_shrink)
-endif
+"if dein#tap('vim-expand-region')
+"  xmap v <Plug>(expand_region_expand)
+"  xmap V <Plug>(expand_region_shrink)
+"endif
 
 if dein#tap('dsf.vim')
   nmap dsf <Plug>DsfDelete
