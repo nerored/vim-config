@@ -51,3 +51,8 @@
 - repo: antoinemadec/FixCursorHold.nvim
 - repo: machakann/vim-highlightedyank
 - repo: itchyny/vim-cursorword
+
+#""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#"                              dein ui
+#"""
+- repo: wsdjeg/dein-ui.vim
