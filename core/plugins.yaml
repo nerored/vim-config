@@ -81,20 +81,6 @@
 - repo: simnalamburt/vim-mundo
   on_cmd: MundoToggle
 
-- repo: liuchengxu/vim-which-key
-  on_cmd: [ Whichkey, Whichkey! ]
-  hook_add: |
-    let g:which_key_map =  { 'name' : 'Leader'}
-    let g:which_key_localmap =  {'name' : 'LocalLeader'}
-  hook_post_source: |
-    function! s:register_whichkey()
-      let s:leader_key=substitute(get(g:,"mapleader","\\"), ' ', '<Space>', '')
-      let s:localleader_key= get(g:,'maplocalleader',';')
-      call which_key#register(s:leader_key, 'g:which_key_map')
-      call which_key#register(s:localleader_key, 'g:which_key_localmap')
-    endfunction
-    call s:register_whichkey()
-
 - repo: easymotion/vim-easymotion
   on_map: { n: <Plug> }
   hook_source: |
